@@ -12,7 +12,7 @@ const cart = () => {
   };
 
   cartBtn.addEventListener("click", openCart);
-  cartCloseBtn.onclick = ("click", closeCart);
+  cartCloseBtn.addEventListener("click", closeCart);
 };
 
 export default cart;
