@@ -14,5 +14,4 @@ const postData = () => {
   }).then((res) => res.json());
 };
 
-console.log("postData.js loaded");
 export default postData;
